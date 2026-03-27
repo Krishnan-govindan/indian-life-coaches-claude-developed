@@ -151,12 +151,13 @@ function HeroSection() {
             className="relative mt-14 lg:mt-0"
           >
             <div className="relative rounded-2xl overflow-visible border-2 border-[#E8A838]/30">
-              {/* Placeholder image box */}
-              <div className="bg-gradient-to-br from-white/10 to-white/5 aspect-video w-full rounded-2xl flex items-center justify-center min-h-[300px]">
-                <span className="text-white/40 text-lg font-medium">
-                  Hero Image
-                </span>
-              </div>
+              {/* Hero Image */}
+              <img
+                src="https://assets.cdn.filesafe.space/m9jCzEyKqM4xlMWTjcgS/media/681b9a45d5b18d7300b6410e.webp"
+                alt="Indian Life Coach helping NRI clients achieve their goals"
+                className="w-full rounded-2xl object-cover"
+                style={{ maxHeight: '500px', objectPosition: 'center top' }}
+              />
 
               {/* Floating stats badge */}
               <motion.div
