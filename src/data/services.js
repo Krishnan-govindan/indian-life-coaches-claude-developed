@@ -35,7 +35,7 @@ const services = [
     icon: HeartHandshake,
     link: "#booking",
     note: "Also available via India Therapist",
-    image: "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600&h=280&fit=crop&q=80",
+    image: "https://assets.cdn.filesafe.space/m9jCzEyKqM4xlMWTjcgS/media/68108107eb94a8056a09756f.png",
     imageAlt: "Indian couple strengthening their relationship with coaching support"
   },
   {
