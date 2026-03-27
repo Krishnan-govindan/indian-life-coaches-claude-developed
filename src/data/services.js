@@ -7,7 +7,7 @@ const services = [
     tagline: "Manifest Your Dream Job",
     icon: Briefcase,
     link: "#booking",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=280&fit=crop&q=80",
+    image: "https://assets.cdn.filesafe.space/m9jCzEyKqM4xlMWTjcgS/media/680f0aa33176b9401b5fd1c6.png",
     imageAlt: "Indian professional woman in a career coaching session"
   },
   {
@@ -90,7 +90,7 @@ const services = [
     tagline: "10X your Confidence",
     icon: Shield,
     link: "#booking",
-    image: "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?w=600&h=280&fit=crop&q=80",
+    image: "https://assets.cdn.filesafe.space/m9jCzEyKqM4xlMWTjcgS/media/680f2271eb94a836e406de2c.png",
     imageAlt: "Confident Indian professional empowered through self-confidence coaching"
   },
   {
