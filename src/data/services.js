@@ -25,7 +25,7 @@ const services = [
     tagline: "Heal from Divorce in Just 6 Weeks",
     icon: HeartCrack,
     link: "#booking",
-    image: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=600&h=280&fit=crop&q=80",
+    image: "https://assets.cdn.filesafe.space/m9jCzEyKqM4xlMWTjcgS/media/681081073176b9c7b662edec.png",
     imageAlt: "Person finding emotional strength and healing after divorce"
   },
   {
