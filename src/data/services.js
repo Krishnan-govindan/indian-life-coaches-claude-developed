@@ -45,7 +45,7 @@ const services = [
     icon: Brain,
     link: "#booking",
     note: "Also available via India Therapist",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=280&fit=crop&q=80",
+    image: "https://assets.cdn.filesafe.space/m9jCzEyKqM4xlMWTjcgS/media/67762ecdce41a6ad6b7e0856.png",
     imageAlt: "Compassionate therapy session for NRI mental health and trauma healing"
   },
   {
@@ -54,7 +54,7 @@ const services = [
     tagline: "Leadership coaching, promotions",
     icon: Crown,
     link: "#booking",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&h=280&fit=crop&q=80",
+    image: "https://assets.cdn.filesafe.space/m9jCzEyKqM4xlMWTjcgS/media/680f0aa33176b9401b5fd1c6.png",
     imageAlt: "Indian executive leader in a boardroom coaching session"
   },
   {
@@ -63,7 +63,7 @@ const services = [
     tagline: "Detox from Social Media in Just 2 Weeks",
     icon: SmartphoneNfc,
     link: "#booking",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=280&fit=crop&q=80",
+    image: "https://assets.cdn.filesafe.space/m9jCzEyKqM4xlMWTjcgS/media/680f212ca00f640bf7f2eeb4.png",
     imageAlt: "NRI breaking free from social media addiction with coaching"
   },
   {
