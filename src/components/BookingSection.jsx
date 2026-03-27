@@ -94,7 +94,7 @@ function BookingSection() {
             <div className="mt-10 lg:mt-0">
               <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 bg-white">
                 <iframe
-                  src="YOUR_CALENDLY_LINK"
+                  src="https://calendly.com/fulsuccess/ai"
                   width="100%"
                   height="700"
                   frameBorder="0"
@@ -102,10 +102,6 @@ function BookingSection() {
                   title="Book a Discovery Call"
                 />
               </div>
-              {/* REPLACE YOUR_CALENDLY_LINK ABOVE WITH YOUR ACTUAL CALENDLY SCHEDULING URL */}
-              <p className="text-xs text-red-400 italic mt-2">
-                Replace YOUR_CALENDLY_LINK in the code with your actual Calendly URL
-              </p>
             </div>
           </AnimatedSection>
 
