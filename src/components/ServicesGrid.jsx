@@ -14,40 +14,55 @@ function ServiceCard({ service, delay }) {
 
   return (
     <AnimatedSection delay={delay}>
-      <Card className="group h-full flex flex-col relative overflow-hidden">
+      <Card className="group h-full flex flex-col relative overflow-hidden !p-0">
         {/* Gold top-border on hover */}
-        <div className="absolute top-0 left-0 right-0 h-[3px] bg-[#E8A838] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-t-2xl" />
+        <div className="absolute top-0 left-0 right-0 h-[3px] bg-[#E8A838] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-t-2xl z-10" />
 
-        {/* Icon */}
-        <div className="w-14 h-14 rounded-full bg-amber-50 flex items-center justify-center mb-4 shrink-0">
-          <Icon size={32} color="#E8A838" strokeWidth={1.75} />
+        {/* Service Image */}
+        <div className="relative w-full h-44 overflow-hidden rounded-t-2xl shrink-0">
+          <img
+            src={service.image}
+            alt={service.imageAlt}
+            loading="lazy"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+          {/* Subtle gradient overlay at bottom of image */}
+          <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-white/30 to-transparent" />
         </div>
 
-        {/* Name */}
-        <h3 className="font-semibold text-lg text-[#1E3A5F] mb-2">
-          {service.name}
-        </h3>
+        {/* Card body */}
+        <div className="flex flex-col flex-1 p-5">
+          {/* Icon badge */}
+          <div className="w-11 h-11 rounded-full bg-amber-50 flex items-center justify-center mb-3 shrink-0 -mt-8 border-2 border-white shadow-md">
+            <Icon size={22} color="#E8A838" strokeWidth={1.75} />
+          </div>
 
-        {/* Tagline */}
-        <p className="italic text-[#64748B] text-sm mb-4 flex-1">
-          {service.tagline}
-        </p>
+          {/* Name */}
+          <h3 className="font-semibold text-base text-[#1E3A5F] mb-1">
+            {service.name}
+          </h3>
 
-        {/* Optional note */}
-        {service.note && (
-          <p className="text-xs text-[#94A3B8] mb-4">
-            ({service.note})
+          {/* Tagline */}
+          <p className="italic text-[#64748B] text-sm mb-3 flex-1">
+            {service.tagline}
           </p>
-        )}
 
-        {/* Book Now link */}
-        <a
-          href="#booking"
-          onClick={handleBookNow}
-          className="text-[#E8A838] font-semibold text-sm hover:underline mt-auto"
-        >
-          Book Now →
-        </a>
+          {/* Optional note */}
+          {service.note && (
+            <p className="text-xs text-[#94A3B8] mb-3">
+              ({service.note})
+            </p>
+          )}
+
+          {/* Book Now link */}
+          <a
+            href="#booking"
+            onClick={handleBookNow}
+            className="text-[#E8A838] font-semibold text-sm hover:underline mt-auto"
+          >
+            Book Now →
+          </a>
+        </div>
       </Card>
     </AnimatedSection>
   );
