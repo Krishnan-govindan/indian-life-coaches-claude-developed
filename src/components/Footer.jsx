@@ -88,10 +88,10 @@ function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Connect</h3>
             <div className="flex flex-col gap-2">
               <a
-                href="mailto:info@indianlifecoaches.com"
+                href="mailto:support@indianlifecoaches.com"
                 className="text-white/60 hover:text-[#E8A838] transition-colors duration-200 text-sm"
               >
-                info@indianlifecoaches.com
+                support@indianlifecoaches.com
               </a>
               <a
                 href="https://wa.me/14254424167"
