@@ -9,7 +9,6 @@ const navLinks = [
   { label: 'Why Us', href: '#why-us' },
   { label: 'Testimonials', href: '#testimonials' },
   { label: 'FAQ', href: '#faq' },
-  { label: 'Blog', href: 'https://indianlifecoaches.com/blog', external: true },
 ];
 
 function smoothScroll(href) {
